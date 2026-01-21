@@ -30,8 +30,7 @@ function Profile() {
                             className="border-2 border-slate-400 text-lg sm:text-xl p-3 w-40 sm:w-44 rounded-full font-semibold hover:bg-zinc-700 hover:text-white hover:animate-pulse"
                             onClick={() =>
                                 window.open(
-                                    'https://drive.google.com/file/d/1I06EgRz5BW4NSnhaf1v2IoFvY_M9n_5N/view?usp=sharing',
-                                    '_blank'
+                                    'https://drive.google.com/file/d/1NoD2gMo5Z1qBcDPt_MPUlay9uImjzYFW/view'
                                 )
                             }
                         >
