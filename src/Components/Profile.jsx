@@ -12,7 +12,7 @@ function Profile() {
                 {/* Profile Image */}
                 <div className="flex justify-center">
                     <img
-                        src={Profile_Image}
+                        src={Visnu_ID}
                         alt="Visnu Gupta"
                         className="object-cover object-center h-[300px] w-[300px] sm:h-[350px] sm:w-[350px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px] rounded-full shadow-lg"
                     />
@@ -30,7 +30,7 @@ function Profile() {
                             className="border-2 border-slate-400 text-lg sm:text-xl p-3 w-40 sm:w-44 rounded-full font-semibold hover:bg-zinc-700 hover:text-white hover:animate-pulse"
                             onClick={() =>
                                 window.open(
-                                    'https://drive.google.com/file/d/1NoD2gMo5Z1qBcDPt_MPUlay9uImjzYFW/view'
+                                    'https://drive.google.com/file/d/1ou_FMM5kAx5wAKwn_3IVTvzUGHzeoMUm/view'
                                 )
                             }
                         >
@@ -47,13 +47,13 @@ function Profile() {
                     <div className="flex justify-center items-center gap-6 text-3xl sm:text-4xl mt-6">
                         <a
                             href="https://www.linkedin.com/in/visnu-gupta-2b363631a/"
-                            className="hover:text-gray-600 transition"
+                            className="hover:text-gray-600 transition-all duration-500"
                         >
                             <TbBrandLinkedinFilled />
                         </a>
                         <a
                             href="https://github.com/VisnuGupta0007/VisnuGupta0007"
-                            className="hover:text-gray-600 transition"
+                            className="hover:text-gray-600 transition-all duration-500"
                         >
                             <FaGithub />
                         </a>

@@ -19,7 +19,7 @@ function About() {
                     <img
                         src={About_Image}
                         alt="About Me"
-                        className="object-cover w-full max-w-[400px] sm:max-w-[450px] h-[500px] sm:h-[570px]  rounded-3xl shadow-2xl"
+                        className="object-cover w-full max-w-[400px] sm:max-w-[450px] h-[600px] sm:h-[570px]  rounded-3xl shadow-2xl"
                     />
 
                     {/* Content */}
@@ -41,7 +41,11 @@ function About() {
 
                         {/* About Description */}
                         <p className="text-gray-700 font-medium text-justify text-sm sm:text-base leading-relaxed">
-                            Web Developer with strong experience in building responsive, accessible, and user-friendly websites using modern technologies such as HTML, CSS, JavaScript, React.js, and Tailwind CSS. Skilled in developing clean, well-structured, and reusable code while focusing on performance, accessibility, and cross-browser compatibility. Proficient in using Git for version control and comfortable working in Agile teams to deliver high-quality features efficiently. Capable of turning design mockups into functional web interfaces, ensuring a smooth and consistent user experience. Familiar with component-based architecture and maintaining scalable codebases. Passionate about web development, always eager to learn new tools and technologies to stay updated with industry trends.
+                            Every great digital experience starts with a simple idea—and I enjoy bringing those ideas to life through thoughtful design and clean, efficient code. As a Frontend Developer, I build interfaces that are not only visually appealing but also fast, responsive, accessible, and intuitive to use.
+
+                            My approach goes beyond writing code. I focus on creating seamless user experiences, developing reusable components, and building scalable applications that are easy to maintain and perform consistently across devices and browsers. I work with HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Bootstrap, Material UI, Git, and GitHub to transform concepts into polished, production-ready web applications.
+
+                            I believe the best products are built by continuously learning, experimenting, and refining every detail. Whether I'm developing a React application, optimizing performance, or exploring modern frontend technologies, I'm always driven by curiosity and a commitment to craftsmanship. My goal is simple: create digital experiences that people enjoy using and solutions that make a meaningful impact.
                         </p>
 
                         {/* Certificates */}
@@ -55,7 +59,7 @@ function About() {
                                         '_blank'
                                     )
                                 }
-                                className="w-full sm:w-44 text-base sm:text-lg font-semibold cursor-pointer text-white bg-zinc-500 border-2 border-zinc-500 rounded-full p-3 transition-all duration-300 ease-in-out hover:bg-white hover:animate-pulse hover:text-zinc-800 hover:shadow-xl hover:border-zinc-800"
+                                className="w-full sm:w-44 text-base sm:text-lg font-semibold cursor-pointer text-white bg-zinc-500 border-2 border-zinc-500 rounded-full p-3 transition-all duration-600 ease-in-out hover:bg-white hover:animate-pulse hover:text-zinc-800 hover:shadow-xl hover:border-zinc-800"
                             >
                                 Web Designing
                             </button>
@@ -68,9 +72,23 @@ function About() {
                                         '_blank'
                                     )
                                 }
-                                className="w-full sm:w-44 text-base sm:text-lg font-semibold cursor-pointer text-white bg-zinc-500 border-2 border-zinc-500 rounded-full p-3 transition-all duration-300 ease-in-out hover:bg-white hover:animate-pulse hover:text-zinc-800 hover:shadow-xl hover:border-zinc-800"
+                                className="w-full sm:w-44 text-base sm:text-lg font-semibold cursor-pointer text-white bg-zinc-500 border-2 border-zinc-500 rounded-full p-3 transition-all duration-600 ease-in-out hover:bg-white hover:animate-pulse hover:text-zinc-800 hover:shadow-xl hover:border-zinc-800"
                             >
                                 MERN Stack
+
+                            </button>
+
+                            {/* IBM certificate */}
+                            <button
+                                onClick={() =>
+                                    window.open(
+                                        'https://drive.google.com/file/d/1PQTREEfbUxvPH691YM44f3xI0q0IQ7kn/view',
+                                        '_blank'
+                                    )
+                                }
+                                className="w-full sm:w-44 text-base sm:text-lg font-semibold cursor-pointer text-white bg-zinc-500 border-2 border-zinc-500 rounded-full p-3 transition-all duration-600 ease-in-out hover:bg-white hover:animate-pulse hover:text-zinc-800 hover:shadow-xl hover:border-zinc-800"
+                            >
+                                IBM Certification
                             </button>
                         </div>
 
